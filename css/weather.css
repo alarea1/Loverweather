@@ -1,0 +1,177 @@
+h1{
+  text-align: center;
+}
+.image-me{
+      width:45px;
+      height:45px;
+       transform:rotate(90deg);
+       background-image:url(../img/1.jpg);
+       background-size:cover;
+       background-size:percentage(50% 50%);
+       border: 5px solid yellow;
+       border-radius:50%;
+     }
+.image-me:hover{
+  transform:rotate(90deg);
+  transform:scale(1.2, 1.2);
+
+}
+.image-her{
+           width:45px;
+           height:45px;
+
+            background-image:url(../img/2.jpg);
+            background-size:cover;
+            background-size:percentage(50% 50%);
+            border: 5px solid green;
+            border-radius:50%;
+          }
+.image-her:hover{
+            transform:scale(1.2, 1.2);
+
+          }
+     #experiment {
+       -webkit-perspective: 800px;
+       -webkit-perspective-origin: 50% 200px;
+     }
+     #cube {
+       margin-top:100px;
+       position: relative;
+       margin: 0 auto;
+       height: 400px;
+       width: 400px;
+       -webkit-transition: -webkit-transform 2s linear;
+       -webkit-transform-style: preserve-3d;
+     }
+     .face {
+       position: absolute;
+       height: 360px;
+       width: 360px;
+       padding: 20px;
+       background-color: rgba(50, 50, 50, 0.7);
+     }
+     #cube .one  {
+       -webkit-transform: rotateX(90deg) translateZ(200px);
+     }
+
+     #cube .two {
+       -webkit-transform: translateZ(200px);
+     }
+
+     #cube .three {
+       -webkit-transform: rotateY(90deg) translateZ(200px);
+     }
+
+     #cube .four {
+       -webkit-transform: rotateY(180deg) translateZ(200px);
+     }
+
+     #cube .five {
+       -webkit-transform: rotateY(-90deg) translateZ(200px);
+     }
+
+     #cube .six {
+       -webkit-transform: rotateX(-90deg) translateZ(200px) rotate(180deg);
+     }
+///////////////////////////整体样式//////////////////////////////////
+*, *:before, *:after {
+	box-sizing: inherit;
+	font-family: -apple-system, BlinkMacSystemFont, "Microsoft Yahei", sans-serif;
+	margin: 0px;
+}
+.weather{
+  font-family: serif;
+  	font-size: 24px;
+  color:rgba(230,206,49,0.3);
+
+}
+.weather2{
+  font-family: serif;
+  	font-size: 24px;
+  color:rgba(48,184,68,0.3);
+
+}
+.weather img{
+  opacity:0.3
+}
+.weather2 img{
+  opacity:0.3
+}
+.city {
+	font-size: 24px;
+	font-weight: bold;
+}
+.city2 {
+	font-size: 24px;
+	font-weight: bold;
+}
+.description, .time {
+	display: block;
+	font-size: 14px;
+	margin-bottom: 10px;
+	color: gray;
+}
+.description2, .time2 {
+	display: block;
+	font-size: 14px;
+	margin-bottom: 10px;
+	color: gray;
+}
+.weather-info{
+  font-size: 14px;
+	margin-bottom: 10px;
+  font-family: -apple-system, BlinkMacSystemFont, "Microsoft Yahei", sans-serif;
+  color:rgba(255,255,255,0.2);
+}
+.weather-info2{
+  font-size: 14px;
+	margin-bottom: 10px;
+  font-family: -apple-system, BlinkMacSystemFont, "Microsoft Yahei", sans-serif;
+  color:rgba(255,255,255,0.2);
+}
+.daily-forecast{
+  font-size: 14px;
+	margin-bottom: 10px;
+  font-family: -apple-system, BlinkMacSystemFont, "Microsoft Yahei", sans-serif;
+  color:rgba(255,255,255,0.2);
+
+}
+.daily-forecast2{
+  font-size: 14px;
+	margin-bottom: 10px;
+  font-family: -apple-system, BlinkMacSystemFont, "Microsoft Yahei", sans-serif;
+  color:rgba(255,255,255,0.2);
+
+}
+
+.orange-bg {
+	background-color: #f0ad4e;
+}
+
+.gray-bg {
+	background-color: #999;
+}
+
+.blue-bg {
+	background-color: #428bca;
+}
+.tdc{
+  font-family: serif;
+    font-size: 24px;
+  color:rgba(230,206,49,0.3);
+}
+.tdc2{
+  font-family: serif;
+    font-size: 24px;
+  color:rgba(48,184,68,0.3);
+}
+.forecasts>h2{
+  font-family: serif;
+    font-size: 24px;
+  color:rgba(230,206,49,0.3);
+}
+.forecasts2>h2{
+  font-family: serif;
+    font-size: 24px;
+  color:rgba(48,184,68,0.3);
+}
